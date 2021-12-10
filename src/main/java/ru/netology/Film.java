@@ -6,8 +6,9 @@ public class Film {
     private String filmName;
     private String filmGenre;
 
-    public Film(){
+    public Film() {
     }
+
     public Film(int filmId, String imageUrl, String filmName, String filmGenre) {
         this.filmId = filmId;
         this.imageUrl = imageUrl;
@@ -25,27 +26,31 @@ public class Film {
                 '}';
     }
 
-    public void setFilmId(int filmId){
+    public void setFilmId(int filmId) {
     }
-    public int getFilmId(){
+
+    public int getFilmId() {
         return filmId;
     }
 
-    public void setImageUrl(String imageUrl){
+    public void setImageUrl(String imageUrl) {
     }
-    public String getImageUrl(){
+
+    public String getImageUrl() {
         return imageUrl;
     }
 
-    public void setFilmName(String filmName){
+    public void setFilmName(String filmName) {
     }
-    public String getFilmName(){
+
+    public String getFilmName() {
         return filmName;
     }
 
-    public void setFilmGenre(String filmGenre){
+    public void setFilmGenre(String filmGenre) {
     }
-    public String getFilmGenre(){
+
+    public String getFilmGenre() {
         return filmGenre;
     }
 }
